@@ -1,0 +1,41 @@
+{
+  "name": "marz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express-pino-logger": "^6.0.0",
+    "express-rate-limit": "^5.2.6",
+    "express-useragent": "^1.0.15",
+    "joi": "^17.4.0",
+    "jsonapi-serializer": "^3.6.7",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.5.0",
+    "string-sanitizer": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.3",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^5.0.0",
+    "path": "^0.12.7"
+  }
+}
