@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -27,10 +31,5 @@
     "path": "^0.12.7",
     "string-sanitizer": "^2.0.2"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/node": "^7.15.4",
-    "@babel/preset-env": "^7.15.6"
-  }
+  "devDependencies": {}
 }
